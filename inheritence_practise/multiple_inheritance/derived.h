@@ -55,7 +55,8 @@ namespace mk {
         public:
             Derived(); //custom default constructor
             void get_private();
-            void set_private(int); /* How does compiler resolve this ambiguity? */
+            void set_private(int); /* How does compiler resolve this ambiguity? 
+                                      This will override Base class functions */
 
     };
 }
